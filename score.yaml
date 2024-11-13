@@ -22,6 +22,8 @@ resources:
       port: 80
   db:
     type: postgres
+  my-redis:
+    type: redis
 service:
   ports:
     www:
