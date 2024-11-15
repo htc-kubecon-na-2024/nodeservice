@@ -6,6 +6,7 @@ containers:
     image: . # Set by pipeline
     variables:
       PORT: "3000"
+      MESSAGE: "Hello, KubeCon!"
       DB_DATABASE: ${resources.db.name}
       DB_USER: ${resources.db.username}
       DB_PASSWORD: ${resources.db.password}
